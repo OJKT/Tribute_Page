@@ -1,5 +1,129 @@
 # Tribute_Page
 Challenge 1
+
+<style>
+	html,body {
+  font-family: "Khand", sans-serif;
+  text-align: center;
+  color: black;
+  background: lightgray;
+	padding: 20px;
+}
+
+#main {
+  margin: 3vh;
+  padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 150px;
+	padding-right: 150px;
+  border: 2px solid;
+  border-radius: 20px;
+  background: dodgerblue;
+}
+
+#title {
+	background: dodgerblue;
+	margin: (10px, 10px, 0px, 10px);
+  font-size: 72px;
+  font-family: font-family: 'Lobster Two', cursive;
+}
+
+#subtitle {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#img-div {
+  margin-left: 100px;
+	margin-right: 100px;
+  margin-top: 20px;
+	margin-bottom:10px;
+  border: 5px solid black;
+  border-radius: 50px;
+  background: orangered;
+}
+
+#image { 
+  display: block; 
+  margin: auto;
+  margin-top: 15px;
+  max-width: 100%;
+  border: 4px solid black;
+  border-radius: 100px;
+}
+
+#img-caption {
+  margin: 15px;
+  font-size: 16px;
+}
+
+#tribute-info {
+  font-size: 20px;
+	border-radius: 50px;
+}
+
+#headline {
+  margin-top: 50px;
+  text-align: left;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+li {
+  margin: 10px;
+}
+
+#timeline {
+  display: inline-block;
+  margin: 25px;
+  border: 10px outset;
+}
+
+#inventions {
+  display: inline-block;
+  margin: 25px;
+  border: 10px outset;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+#tribute-link {
+  transition: box-shadow 0.3s ease-in-out;
+  color: #8000C1;
+}
+
+#ul {
+	text-align: center;
+	background: dodgerblue;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:20px;
+	border: solid black 2px;
+	border-radius: 50px;
+}
+
+#tribute-link:hover {
+  box-shadow: 0 30px 50px rgba(0,0,0,0.15);
+  text-shadow: 0 0 3px yellow;
+  border-radius: 10px;
+  transform: scale(1.3);
+}
+
+footer {
+	font-size: 14px;
+}
+</style>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Khand:500" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
